@@ -679,20 +679,26 @@ p {
 /*=========================================================
     03: top-to button
 ===========================================================*/
+.social-icons {
+  font-size: 44px;
+  margin: 10px;
+  text-align: center;
+}
+
 
 .top-btn {
-  height: 45px;
-  width: 45px;
+  /* height: 45px; */
+  width: 100px;
   line-height: 45px;
   text-align: center;
-  background: var(--dark-orange);
+  /* background: var(--dark-orange); */
   position: fixed;
-  right: 40px;
-  bottom: 40px;
-  transform: scale(0);
+  right: 5px;
+  bottom: 15px;
+  /* transform: scale(0); */
   opacity: 0;
-  visibility: hidden;
-  z-index: 99;
+  /* visibility: hidden; */
+  z-index: 1;
   outline: none;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
@@ -700,8 +706,8 @@ p {
   -o-transition: all linear 0.4s;
   transition: all linear 0.4s;
   cursor: pointer;
-  -webkit-animation: witr_bounce 1000ms ease-out infinite;
-  animation: witr_bounce 1000ms ease-out infinite;
+  /* -webkit-animation: witr_bounce 1000ms ease-out infinite; */
+  /* animation: witr_bounce 1000ms ease-out infinite; */
 }
 .home2.top-btn{
   background: var(--gradient3);
@@ -3839,6 +3845,3 @@ p {
   text-transform: capitalize;
 }
 
-{
-
-}
